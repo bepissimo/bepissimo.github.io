@@ -13,7 +13,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 200%;
-    color:black;
-    text-decoration: none;
     display: none;
+}
+
+.link {
+    text-decoration: none;
+    color:dimgray;
+    
 }
