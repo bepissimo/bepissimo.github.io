@@ -10,12 +10,24 @@
     display: none;
 }
 
+.name404 {
+    font-size: 500%;
+}
+
 .linkContainer {
     position:absolute;
     top: 80%;
     left: 4%;
     font-size: 200%;
     display: none;
+    white-space:nowrap;
+}
+
+.linkContainer404 {
+    position:absolute;
+    top: 80%;
+    left: 0%;
+    font-size: 200%;
     white-space:nowrap;
 }
 
