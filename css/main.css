@@ -1,23 +1,25 @@
-.name {
+.mainBlock {
     position:absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.name {
     font-size: 500%;
     display: none;
 }
 
 .linkContainer {
     position:absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 4%;
     font-size: 200%;
     display: none;
+    white-space:nowrap;
 }
 
 .link {
     text-decoration: none;
     color:dimgray;
-    
 }
