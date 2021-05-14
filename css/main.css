@@ -4,6 +4,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 500%;
-    opacity: 100%;
+    display: none;
+}
+
+.linkContainer {
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    color:black;
+    text-decoration: none;
     display: none;
 }

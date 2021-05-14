@@ -9,11 +9,18 @@
   <body>
   <script>
     $().ready(function () {
-      $("#nameJS").fadeIn(2000); // Neat fade in effect :D
+      $("#nameJS").fadeIn(2000, function() {
+        $("#linkBlock").fadeIn(1000);
+      });
     });
   </script>
   <h1 class='name' id='nameJS'>Ben Peterson</h1>
-  
+  <div class='linkContainer' id='linkBlock'>
+    <a href="https://google.com">About</a>
+    <a href="https://google.com">Projects</a>
+    <a href="https://www.ryanslocum.com/fun/index.html">Fun</a>
+    <a href="https://google.com">Contact</a>
+  </div>
   </body>
 
 </html>
