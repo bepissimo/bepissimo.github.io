@@ -34,4 +34,5 @@
 .link {
     text-decoration: none;
     color:dimgray;
+    white-space:nowrap;
 }
