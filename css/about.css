@@ -10,9 +10,9 @@
 }
 
 .textBlock {
-    width:400px;
-    height:600px;
-    position:absolute;
+    width:20%;
+    height:63.9%;
+    position:fixed;
     border-color:black;
     border-style:solid;
     padding:15px;
@@ -21,11 +21,11 @@
 }
 
 .image {
-    position: absolute;
+    position: fixed;
     border-style:solid;
-    width:420px;
-    height:630px;
+    width:22.4%;
+    height:67.1%;
     top: 20%;
     left:33%;
+    object-fit:cover;
 }
-
