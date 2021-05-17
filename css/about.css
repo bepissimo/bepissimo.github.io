@@ -1,4 +1,13 @@
 .aboutTitle {
-    font-size: 500%;
+    font-size: 400%;
     /*display: none;*/
+}
+
+.textBlock {
+    
+}
+
+.image {
+    width:25%;
+    height:25%;
 }
