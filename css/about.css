@@ -1,13 +1,31 @@
 .aboutTitle {
+    position:absolute;
     font-size: 400%;
+    left: 50%;
     /*display: none;*/
 }
 
+.aboutText{
+    font-size:large;
+}
+
 .textBlock {
-    
+    width:400px;
+    height:600px;
+    position:absolute;
+    border-color:black;
+    border-style:solid;
+    padding:15px;
+    left: 55.5%;
+    top: 20%;
 }
 
 .image {
-    width:25%;
-    height:25%;
+    position: absolute;
+    border-style:solid;
+    width:420px;
+    height:630px;
+    top: 20%;
+    left:33%;
 }
+
