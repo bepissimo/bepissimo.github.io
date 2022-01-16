@@ -10,25 +10,77 @@
   </head>
   <body>
     <nav class="top-bar topbar-responsive">
-        <div class="top-bar-title">
-          <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
-          </span>
-          <a class="topbar-responsive-logo" href="#"><strong>Ben Peterson</strong></a>
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"><strong>Ben Peterson</strong></a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="lego.html">Lego Box</a></li>
+          </ul>
         </div>
-        <div id="topbar-responsive" class="topbar-responsive-links">
-          <div class="top-bar-right">
-            <ul class="menu simple vertical medium-horizontal">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="lego.html">Lego Box</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <h1 style="color:rgb(94, 93, 93)">Coming soon :)</h1>
+      </div>
+    </nav>
+    <div class="text-center">
+      <h1>Projects</h1>
+      <h2 class="subheader">Things I've worked on</h2>
+    </div>
+    <div class="grid-x">
+      <div class="cell large-2"></div>
+      <div class="cell large-8">
+        <ul class="accordion" data-accordion>
+          <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">SnakTrak</a>
+          <div class="accordion-content" data-tab-content>
+            <p>
+              This project was an application that I built for my CSCI 3308 class's group project.
+              The purpose of SnakTrak is to keep track of food payments between your roommates so they can pay you back.
+              The back end was built in PostGres, the middle end was built in NodeJS, and the front end was built in Bootstrap.
+              
+            </p>
+            <a href="http://snaktrak.herokuapp.com">See it for yourself</a>
+          </li>
+          <li class="accordion-item" data-accordion-item>
+            <a href="#" class="accordion-title">Research</a>
+            <div class="accordion-content" data-tab-content>
+              <p>
+                Starting in August 2021, I have been working with CU's Bioastronautics department as a Discovery Learning Apprentice (DLA).
+                I have been helping them build VR simulations for the following purposes:
+                <ul>
+                  <li>Entry, Descent, and Landing (EDL) on Mars</li>
+                  <li>A rover simulation on the surface of Mars</li>
+                  <li>A Mars indoor habitat maintenance simulation</li>
+                </ul>
+
+              </p>
+              <a href="#">Link and More Information Coming Soon</a>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Minigit</a>
+              <div class="accordion-content" data-tab-content>
+                <p>This was my group final project for CSCI 2270 - Data Structures.  
+                  It is a fully functioning version control system. </p>
+                <a href="#">Link Coming Soon</a>
+              </li>
+              <li class="accordion-item" data-accordion-item>
+                <a href="#" class="accordion-title">CSCI 1300 Final Project</a>
+                <div class="accordion-content" data-tab-content>
+                  <p>
+                    This was a fun little game that I built with a friend for my final project.
+                    It uses ASCII animation as well as a saving/profile system for saving progress.
+                  </p>
+                  <a href="#">Link Coming Soon</a>
+                </li>
+        </ul>
+      </div>
+    </div>
     <script src="../js/vendor/jquery.js"></script>
     <script src="../js/vendor/what-input.js"></script>
     <script src="../js/vendor/foundation.js"></script>
